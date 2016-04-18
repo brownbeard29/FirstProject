@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <span id="demo"></span>
+  
+<script>
+  window.addEventListner('load', myfirst, false);
+  function myfirst(){
+  window.alert("Hello World using and Event Listner");
+  document.getElementById("demo").innerHTML = "Hello World!";
+}
+
+</script>
+
+
+</body>
+</html>
