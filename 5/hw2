@@ -13,19 +13,14 @@ function myfirst() {
 var userinput1 = parseInt(document.getElementById("input1").value);   
 var userinput2 = parseInt(document.getElementById("input2").value);
 
-//if statement checking to see which input is larger
-//var sum = 0;
-    if (userinput1 == userinput2) {document.getElementById("answer").innerHTML = "Two numbers are the same!";}
+//sum the numbers
+ var sum = userinput1 + userinput2;
     
-    else if(userinput1 > userinput2){sum = userinput1;}  
     
-    else {sum = userinput2;}
-      
 //Output 1
     
 //writing a local variable back to the HTML DOM where element has an id of answer
-
-document.getElementById("answer").innerHTML = "The two numbers are different. The largest is " + sum;
+document.getElementById("answer").innerHTML = sum;
 }
  
   
