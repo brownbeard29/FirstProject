@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 
+<p>This page shows the value of a variable that is declared outside the function and inside:</p> 
+<!--ID TAG FOR JAVASCRIPT TO OUTPUT-->
+<p id="answer"></p>
+<p id="answer2"></p>
+
+    <!--Creating a button to respond to and event and giving it an Id of button1-->
+<div><button id ="button1">Button</button></div>
+
+ 
+
+<!--JAVASCRIPT FILE-->
+    <script>
+    
+//EVENT LISTENER
+//ar event1 = document.getElementById("button1");
+//event listener whcih invokes the function
+//event1.addEventListener('click', myAlert, false);
+
+var x = 5
+
+function myAlert() {
+    var x = 4;
+    document.getElementById("answer2").innerHTML = "Local var: " + x;
+
+}
+        
+ myAlert();       
+document.getElementById("answer").innerHTML = "Global var: " + x;
+
+    
+    
+    
+    </script>
+ 
+</body>
+</html>
+
+      
+
+ 
+  
