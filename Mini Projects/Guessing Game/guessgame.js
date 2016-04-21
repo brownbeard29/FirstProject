@@ -37,6 +37,7 @@ function checkGuess(){
     if(userinput1===ran){
          count = count + 1;
         message = "YEAH! - you guessed correctly! - You had <b>" + count + "</b> guess.<br> Would you like another game? <button id='b2>'>Start New game</button>";
+        document.getElementById("ug").innerHTML = "Your correct guess was " + userinput1;
         /*var x = document.getElementById("ug")
         x.setAttribute("type", "hidden");
         document.body.appendChild(x);*/

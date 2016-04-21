@@ -4,4 +4,24 @@
 }
 }
 
-H2,p { text-align: center }
+h1,p { 
+    text-align: center 
+}
+
+h1{
+    font-size 30%; text-align: center
+}
+
+
+.bc1 {
+    color:brown; background-color:burlywood!important
+}
+
+.bc2 {
+    color: burlywood; background-color: brown
+}
+
+.border {border-color:black !important}
+
+.text{ color: black
+}

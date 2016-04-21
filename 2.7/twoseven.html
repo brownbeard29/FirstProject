@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<form>
+<!--Choose your first number-->
+<!--<input type="text" id="input1"/>-->
+</form>   
+    <button onclick="dayOfWeek()">Day</button>
+    <button onclick="whatstheTime()">Time</button>
+<!--<div><button id="button1">Click Me</button></div>-->
+    <div id="answer"></div>
+    <div id="answer1"></div>
+    
+  <script> 
+//Switch statement to go through each case to check if its true, otherwise it breaks and goes to the next one
+      
+function dayOfWeek(){
+var day;
+switch (new Date().getDay()) {
+    case 0:
+        day = "Sunday";
+        break;
+    case 1:
+        day = "Monday";
+        break;
+    case 2: 
+        day = "Tuesday";
+        break;
+    case 3:
+        day = "Wednesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+    case 6:
+        day = "Saturday";
+        break;
+    default:
+        day = "Unknown Day";
+}
+ docunent.getElementById("answer").innerHTML = "The day of the week is " + day;   
+}
+
+var time = new Date();
+var hour = time.getHours();
+ 
+document.getElementById("answer1").innerHTML = "The date and time is: <br ><br >" + time;
+    /*function whatstheTime() {
+        var time = new Date;
+        var time1 = time.getHours
+     }
+      document.getElementById("answer1").innerHTML = "The time is " + time*/
+    </script>    
+    
+    
+<script src= "twoseven.js"></script>
+</body>
+</html>

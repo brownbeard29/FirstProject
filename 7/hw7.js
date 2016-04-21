@@ -12,17 +12,14 @@ function myfirst() {
 //storing the user's input into a local variable called userinput1 
 var userinput1 = parseInt(document.getElementById("input1").value);   
 
-var x = userinput1 + 1;
-var y = userinput1 - 1;
-    
-document.getElementById("answer").innerHTML = x;
-document.getElementById("answer2").innerHTML = y;
+//var x = userinput1 + 1; //setting x the value of user input +1
+//var y = userinput1 - 1; //setting y the value of user input -1  
+//document.getElementById("answer").innerHTML = x; //displaying x
+//document.getElementById("answer2").innerHTML = y; //displaying y
 
-//var x = document.getElementById("myText") = userinput1 + 1;
-//var y = document.getElementById("myText") = userinput1 -1;
-    
-//console.log(x);
-//console.log(y);
+document.getElementById("answer").innerHTML = (userinput1 - 1); //displaying x
+document.getElementById("answer2").innerHTML = (userinput1 + 1); //displaying y
+
       
 
 }//to end the function
