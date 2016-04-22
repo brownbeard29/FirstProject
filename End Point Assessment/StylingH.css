@@ -1,0 +1,24 @@
+@media (min-width: 600px){
+.container {
+    width: 35% !important;
+}
+}
+
+h1,p { 
+    text-align: center;
+    font-size: 110%; 
+}
+
+.container.bc1 {
+    background-color: blanchedalmond;
+    color: brown;
+    border:
+    border-color: black;
+
+}
+
+button#button1 {
+    font-size:1em;
+    background-color: green;
+    color: white;
+}
